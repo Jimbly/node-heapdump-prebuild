@@ -1,6 +1,6 @@
 {
   "name": "heapdump-prebuild",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Make a dump of the V8 heap for later inspection.",
   "homepage": "https://github.com/jimbly/node-heapdump-prebuild",
   "author": "Jimb Esser (https://github.com/Jimbly)",
@@ -21,10 +21,10 @@
     "test_build": "node-gyp build"
   },
   "dependencies": {
+    "nan": "^2.13.2",
     "prebuild-install": "^5.3.5"
   },
   "devDependencies": {
-    "nan": "^2.13.2",
     "prebuild": "^10.0.0"
   }
 }
