@@ -6,25 +6,21 @@ g++/make dependencies.
 
 Currently should provide prebuilds for Node v12.18.3 (current LTS) and v14.8.0 (latest). Ping me if you need other versions, or send a PR that publishes all of them automatically or something :).
 
+
+node-heapdump
+==
+
 Make a dump of the V8 heap for later inspection.
 
 ### Install
 
-    npm install heapdump
-
-Or, if you are running node.js v0.6 or v0.8:
-
-    npm install heapdump@0.1.0
-
-### Build
-
-    node-gyp configure build
+    npm install heapdump-prebuild
 
 ### Usage
 
 Load the add-on in your application:
 
-    var heapdump = require('heapdump');
+    var heapdump = require('heapdump-prebuild');
 
 The module exports a single `writeSnapshot([filename], [callback])` function
 that writes out a snapshot.  `filename` defaults to
