@@ -1,5 +1,8 @@
-node-heapdump
+node-heapdump-prebuild
 ===
+
+Fork of `node-heapdump` with npm prebuild support to avoid deployment-time
+g++/make dependencies.
 
 Make a dump of the V8 heap for later inspection.
 

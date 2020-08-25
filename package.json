@@ -1,13 +1,12 @@
 {
-  "name": "heapdump",
-  "version": "0.3.15",
+  "name": "heapdump-prebuild",
+  "version": "0.0.1",
   "description": "Make a dump of the V8 heap for later inspection.",
-  "homepage": "https://github.com/bnoordhuis/node-heapdump",
-  "author": {
-    "name": "Ben Noordhuis",
-    "email": "info@bnoordhuis.nl",
-    "url": "http://bnoordhuis.nl/"
-  },
+  "homepage": "https://github.com/jimbly/node-heapdump-prebuild",
+  "author": "Jimb Esser (https://github.com/Jimbly)",
+  "contributors": [
+    "Ben Noordhuis <info@bnoordhuis.nl> (http://bnoordhuis.nl/)"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/bnoordhuis/node-heapdump.git"
@@ -17,13 +16,15 @@
   },
   "license": "ISC",
   "scripts": {
-    "test": "tap test/test-*"
+    "publish_build": "prebuild -t v12.18.1",
+    "install": "prebuild-install || node-gyp rebuild",
+    "test_build": "node-gyp build"
   },
   "dependencies": {
-    "nan": "^2.13.2"
+    "nan": "^2.13.2",
+    "prebuild-install": "^5.3.5"
   },
   "devDependencies": {
-    "shelljs": "~0.3.0",
-    "tap": "~0.4.12"
+    "prebuild": "^10.0.0"
   }
 }
