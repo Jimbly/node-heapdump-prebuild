@@ -16,15 +16,15 @@
   },
   "license": "ISC",
   "scripts": {
-    "publish_build": "prebuild -t v12.18.1",
+    "publish_build": "prebuild -t v12.19.1 -t v14.9.0 -t v16.13.0",
     "install": "prebuild-install || node-gyp rebuild",
     "test_build": "node-gyp build"
   },
   "dependencies": {
-    "nan": "^2.13.2",
-    "prebuild-install": "^5.3.5"
+    "nan": "^2.15.0",
+    "prebuild-install": "^5.3.6"
   },
   "devDependencies": {
-    "prebuild": "^10.0.0"
+    "prebuild": "^11.0.0"
   }
 }
