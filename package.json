@@ -21,10 +21,10 @@
     "test_build": "node-gyp build"
   },
   "dependencies": {
-    "nan": "^2.22.0",
     "prebuild-install": "^7.0.0"
   },
   "devDependencies": {
+    "nan": "^2.22.0",
     "prebuild": "^13.0.1"
   }
 }
