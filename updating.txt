@@ -1,5 +1,5 @@
 On Linux:
-  Just edit package.json and run `npm run publish_build` seems to work
+  Ran in a Docker shell, node v14 and prebuild v12 seemed to be able to build and upload everything
 On Windows:
   Using nvs, run
     nvs_shell

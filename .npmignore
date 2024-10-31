@@ -7,3 +7,5 @@ heapdump-*.log
 /test/
 updating.txt
 .clang-format
+win32shell.cmd
+build.sh

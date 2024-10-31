@@ -16,7 +16,7 @@
   },
   "license": "ISC",
   "scripts": {
-    "publish_build": "prebuild -t v12.19.1 -t v14.9.0 -t v16.13.0 -t v18.20.4 -t v20.18.0 -t v22.11.0",
+    "publish_build": "prebuild -t v12.22.12 -t v14.21.3 -t v16.20.2 -t v18.20.4 -t v20.18.0 -t v22.11.0",
     "install": "prebuild-install --verbose || node-gyp rebuild",
     "test_build": "node-gyp build"
   },
