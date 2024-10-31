@@ -4,7 +4,7 @@ node-heapdump-prebuild
 Fork of `node-heapdump` with npm prebuild support to avoid deployment-time
 g++/make dependencies.
 
-Currently should provide prebuilds for Node v12.19.1 (Maintenance LTS), v14.8.0 (Maintenance LTS) and v16.13.0 (Active LTS).
+Currently should provide prebuilds for Node v12.19.1, v14.8.0, v16.13.0, v18.20.4 (Maintenance LTS), v20.18.0 (Active LTS), and v22.11.0 (Current)
 Ping me if you need other versions, or send a PR that publishes all of them automatically or something :).
 
 

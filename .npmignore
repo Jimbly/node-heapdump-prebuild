@@ -5,3 +5,5 @@
 heapdump-*.heapsnapshot
 heapdump-*.log
 /test/
+updating.txt
+.clang-format

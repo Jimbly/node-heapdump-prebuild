@@ -25,6 +25,11 @@
         'src/heapdump-win32.h',
         'src/heapdump.cc',
       ],
+      'msvs_settings': {
+        'VCCLCompilerTool': {
+          'AdditionalOptions': [ '/std:c++17' ],
+        },
+      },
     }
   ]
 }

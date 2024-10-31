@@ -1,0 +1,13 @@
+On Linux:
+  Just edit package.json and run `npm run publish_build` seems to work
+On Windows:
+  Using nvs, run
+    nvs_shell
+    nvs use v14.9.0
+    npm run publish_build
+      This built for v14 and cached the result, but failed to build v16
+    nvs use v16.13.0
+    npm run publish_build
+      This build for v16
+    and so on up through v22.11.0
+Also have Python version issues, run `py2shell` if Gyp throws errors
