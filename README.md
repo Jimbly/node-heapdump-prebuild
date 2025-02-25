@@ -1,3 +1,10 @@
+DEPRECATED
+===
+
+Node.js v11.13+ includes most of this functionality in its [v8.writeHeapSnapshot API](https://nodejs.org/api/v8.html#v8writeheapsnapshotfilenameoptions).
+
+The only thing missing is being able to trigger it from a signal by default, for that, please use https://github.com/Jimbly/node-heapdump-signal
+
 node-heapdump-prebuild
 ===
 
